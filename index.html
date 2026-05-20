@@ -3,113 +3,130 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Standard Grace</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Standard Grace - Home</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<header class="header">
+    <header class="site-header">
+        <div class="nav-container">
+            <div class="logo-placeholder">
+                <div class="logo-icon">SG</div>
+                <span>STANDARD GRACE<br><small style="font-size:10px; letter-spacing:1px; color:#555;">CONSTRUCTION & MAINTENANCE</small></span>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-    <section class="logo-nav">
-
-        <section class="logo">
-            <img src="images/logo.png" alt="Logo">
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Building The Future</h1>
+                <p>Reliable Construction, Renovation and Engineering Solutions Delivered with Quality, Safety and Excellence</p>
+                <div class="hero-buttons">
+                    <a href="contact.html" class="btn btn-primary">Request A Quote</a>
+                    <a href="projects.html" class="btn btn-secondary">View Our Projects</a>
+                </div>
+            </div>
         </section>
 
-        <nav class="navbar">
-            <a href="index.html">Home</a> /
-            <a href="about.html">About Us</a> /
-            <a href="services.html">Services</a> /
-            <a href="projects.html">Projects</a> /
-            <a href="contact.html">Contact Us</a>
-        </nav>
-
-    </section>
-
-</header>
-
-<main>
-    <section class="hero">
-
-        <img src="images/banner.jpg" alt="Banner">
-
-        <article class="hero-text">
-
-            <h1>BUILDING THE FUTURE</h1>
-
-            <p>
-                Reliable Construction, Renovation and Engineering Solutions
-            </p>
-
-            <section class="hero-buttons">
-                <button>Request A Quote</button>
-                <button>View Our Projects</button>
-            </section>
-
-        </article>
-
-    </section>
-    <section class="services">
-
-        <h2>OUR SERVICES</h2>
-
-        <section class="service-container">
-
-            <article class="service-card">
-                <img src="images/electrical.jpg" alt="">
-                <h3>Electrical</h3>
-                <p>Electrical installation and maintenance</p>
-            </article>
-
-            <article class="service-card">
-                <img src="images/plumbing.jpg" alt="">
-                <h3>Plumbing</h3>
-                <p>Professional plumbing services</p>
-            </article>
-
-            <article class="service-card">
-                <img src="images/civil.jpg" alt="">
-                <h3>Civil Works</h3>
-                <p>Roads and drainage solutions</p>
-            </article>
-
-            <article class="service-card">
-                <img src="images/building.jpg" alt="">
-                <h3>Building</h3>
-                <p>Building solutions and construction</p>
-            </article>
-
+        <section class="grid-container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-summary-grid">
+                <div class="service-summary-card">
+                    <div class="card-icon-main">⚡</div>
+                    <h3>Electrical</h3>
+                    <p>Safe and efficient electrical installation and maintenance</p>
+                </div>
+                <div class="service-summary-card">
+                    <div class="card-icon-main">🔧</div>
+                    <h3>Plumbing</h3>
+                    <p>Professional plumbing services for residential and commercial projects</p>
+                </div>
+                <div class="service-summary-card">
+                    <div class="card-icon-main">🚜</div>
+                    <h3>Civil Works</h3>
+                    <p>Infrastructure, roads, drainage and civil works specialist</p>
+                </div>
+                <div class="service-summary-card">
+                    <div class="card-icon-main">🏢</div>
+                    <h3>Building</h3>
+                    <p>Building solutions from planning to completion</p>
+                </div>
+            </div>
         </section>
 
-    </section>
+        <section class="grid-container">
+            <div class="home-split-section">
+                <div>
+                    <h2 style="font-size: 1.8rem; margin-bottom: 20px; text-transform: uppercase;">Project Gallery</h2>
+                    <div class="gallery-grid">
+                        <img src="worksite image" alt="Worksite">
+                        <img src="kitchen image" alt="Kitchen">
+                        <img src="bathroom image" alt="Bathroom">
+                        <img src="Modern interior" alt="Modern Interior">
+                    </div>
+                </div>
+                
+                <div>
+                    <h2 style="font-size: 1.8rem; margin-bottom: 20px; text-transform: uppercase;">Why Choose Us</h2>
+                    <div class="why-choose-list">
+                        <div class="why-item">
+                            <div class="why-icon">📋</div>
+                            <div>
+                                <h3>Quality Work</h3>
+                                <p>We deliver quality workmanship with attention to detail on every project</p>
+                            </div>
+                        </div>
+                        <div class="why-item">
+                            <div class="why-icon">👥</div>
+                            <div>
+                                <h3>Experienced Team</h3>
+                                <p>Our skilled and experienced team ensures your project is in safe hands</p>
+                            </div>
+                        </div>
+                        <div class="why-item">
+                            <div class="why-icon">💰</div>
+                            <div>
+                                <h3>Affordable Prices</h3>
+                                <p>Competitive pricing with no compromise on quality and safety</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-</main>
+        <section class="home-contact-strip">
+            <div class="strip-item">
+                <div>📞</div>
+                <strong>Phone</strong>
+                <p>+267 72 106 601</p>
+            </div>
+            <div class="strip-item">
+                <div>✉️</div>
+                <strong>Email</strong>
+                <p>StandardGrace@gmail.com</p>
+            </div>
+            <div class="strip-item">
+                <div>📍</div>
+                <strong>Location</strong>
+                <p>Pitikwe Ward , Lobatse</p>
+            </div>
+        </section>
+    </main>
 
-<footer class="footer">
-
-    <h2>CONTACT INFORMATION</h2>
-
-    <section class="footer-container">
-
-        <article>
-            <h3>Phone</h3>
-            <p>+267 72 106 601</p>
-        </article>
-
-        <article>
-            <h3>Email</h3>
-            <p>standardgrace@gmail.com</p>
-        </article>
-
-        <article>
-            <h3>Location</h3>
-            <p>Pitikwe Ward, Lobatse</p>
-        </article>
-
-    </section>
-
-</footer>
+    <footer class="site-footer">
+        <p>2018 Standard Grace PTY LTD . All Rights Reserved</p>
+    </footer>
 
 </body>
 </html>
