@@ -1,0 +1,255 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: black;
+}
+
+header{
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+header img{
+    width: 220px;
+}
+
+nav{
+    text-align: center;
+    margin-top: -90px;
+    margin-left: 250px;
+    padding-bottom: 40px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    margin: 10px;
+}
+
+nav a:hover{
+    color: orange;
+}
+
+.hero{
+    position: relative;
+    text-align: center;
+}
+
+.hero img{
+    width: 100%;
+}
+
+.hero-text{
+    position: absolute;
+    top: 30%;
+    right: 5%;
+    color: white;
+}
+
+.hero-text h1{
+    font-size: 55px;
+}
+
+.hero-text p{
+    font-size: 30px;
+}
+
+button{
+    background-color: #f0b400;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: orange;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.services{
+    text-align: center;
+    padding: 20px;
+}
+
+.service-box{
+    display: inline-block;
+    width: 22%;
+    vertical-align: top;
+    margin: 10px;
+}
+
+.service-box img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.service-box h2{
+    font-size: 30px;
+}
+
+.gallery{
+    padding: 20px;
+}
+
+.gallery article{
+    display: inline-block;
+    width: 45%;
+    margin: 10px;
+}
+
+.gallery img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.why-choose{
+    padding: 20px;
+}
+
+.choose-box{
+    margin-bottom: 40px;
+}
+
+.choose-box h2{
+    font-size: 35px;
+}
+
+.contact-info{
+    text-align: center;
+    padding: 20px;
+}
+
+.contact-box{
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+
+.contact-box h2{
+    font-size: 35px;
+}
+
+.about-section{
+    padding: 30px;
+}
+
+.about-text{
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.about-image{
+    width: 45%;
+    display: inline-block;
+}
+
+.about-image img{
+    width: 100%;
+}
+
+.values{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.value-box{
+    display: inline-block;
+    width: 22%;
+}
+
+.service-card{
+    border: 3px solid black;
+    border-radius: 40px;
+    padding: 30px;
+    margin: 30px;
+    background-color: white;
+}
+
+.service-card img{
+    width: 150px;
+}
+
+.service-card h2{
+    font-size: 40px;
+}
+
+.project-box{
+    padding: 20px;
+}
+
+.project-box img{
+    width: 45%;
+    border-radius: 10px;
+}
+
+.project-text{
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+}
+
+.project-text h2{
+    font-size: 45px;
+}
+
+.contact-page{
+    padding: 20px;
+}
+
+form{
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+input,
+textarea{
+    width: 90%;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+aside{
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+aside h2{
+    font-size: 35px;
+}
+
+.faq{
+    padding: 20px;
+}
+
+.faq article{
+    border: 1px solid lightgray;
+    padding: 20px;
+    margin: 10px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+footer button{
+    margin-bottom: 20px;
+}
