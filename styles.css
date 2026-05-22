@@ -75,7 +75,7 @@ nav ul li a:hover{
 /* ===== HERO SECTION ===== */
 
 .hero{
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("images/hero.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("images/StandardGrace.jpg");
     background-size: cover;
     background-position: center;
     height: 550px;
