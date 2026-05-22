@@ -1,136 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" >
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-  <title>Standard Grace Construction & Maintenance</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Standard Grace Construction</title>
+
+    <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
 
-  <header>
-    <img src="logo.png" alt="Standard Grace Construction & Maintenance Logo" width="80" >
-    <h1>Standard Grace</h1>
-    <p>Construction &amp; Maintenance</p>
-    <nav>
-      <a href="#">Home</a> /
-      <a href="#about">About Us</a> /
-      <a href="#services">Services</a> /
-      <a href="#projects">Projects</a> /
-      <a href="#contact">Contact Us</a>
-    </nav>
-  </header>
+<header>
 
-  <main>
+    <div class="container navbar">
 
-    <section id="hero">
-      <img src="hero-construction.jpg" alt="Construction site with cranes" width="100%" >
-      <h2>BUILDING THE FUTURE</h2>
-      <p>Reliable Construction, Renovation and Engineering Solutions Delivered with Quality, Safety and Excellence</p>
-      <a href="#contact">Request A Quote</a>
-      <a href="#projects">View Our Projects</a>
-    </section>
+        <div class="logo">
+            <img src="images/logo.png" alt="Company Logo">
+        </div>
 
-    <section id="services">
-      <h2>OUR SERVICES</h2>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
 
-      <article>
-        <img src="electrical.jpg" alt="Electrician performing wiring installation" width="200" >
-        <h3>Electrical</h3>
-        <p>Safe and efficient electrical installation and maintenance</p>
-      </article>
+    </div>
 
-      <article>
-        <img src="plumbing.jpg" alt="Plumber working on pipes" width="200" >
-        <h3>Plumbing</h3>
-        <p>Professional plumbing services for residential and commercial projects</p>
-      </article>
-
-      <article>
-        <img src="civil-works.jpg" alt="Road roller on a civil construction site" width="200" >
-        <h3>Civil Works</h3>
-        <p>Infrastructure, roads, drainage and civil works specialist</p>
-      </article>
-
-      <article>
-        <img src="building.jpg" alt="Multi-storey building under construction" width="200" >
-        <h3>Building</h3>
-        <p>Building solutions from planning to completion</p>
-      </article>
-
-    </section>
+</header>
 
 
-    <section id="projects">
+<section class="hero">
 
-      <section id="gallery">
-        <h2>PROJECT GALLERY</h2>
-        <figure>
-          <img src="project-kitchen-1.jpg" alt="Renovated kitchen interior" width="200" >
-        </figure>
-        <figure>
-          <img src="project-kitchen-2.jpg" alt="Modern kitchen with bar counter" width="200" >
-        </figure>
-        <figure>
-          <img src="project-bathroom.jpg" alt="Renovated bathroom with glass shower" width="200" >
-        </figure>
-        <figure>
-          <img src="project-corridor.jpg" alt="Bright renovated corridor" width="200" >
-        </figure>
-      </section>
+    <div class="hero-content">
 
-      <aside id="why-choose-us">
-        <h2>WHY CHOOSE US</h2>
+        <h1>Building The Future With Quality</h1>
 
-        <section>
-          <img src="icon-quality.png" alt="" width="50" >
-          <h3>Quality Work</h3>
-          <p>We deliver quality workmanship with attention to detail on every project</p>
-        </section>
+        <p>
+            Professional construction, renovation and engineering
+            solutions for residential and commercial projects.
+        </p>
 
-        <section>
-          <img src="icon-team.png" alt="" width="50" >
-          <h3>Experienced Team</h3>
-          <p>Our skilled and experienced team ensures your project is in safe hands</p>
-        </section>
+        <a href="contact.html" class="btn">Request A Quote</a>
 
-        <section>
-          <img src="icon-price.png" alt="" width="50" >
-          <h3>Affordable Prices</h3>
-          <p>Competitive pricing with no compromise on quality and safety</p>
-        </section>
+        <a href="projects.html" class="btn">View Projects</a>
 
-      </aside>
+    </div>
 
-    </section>
+</section>
 
-    <section id="contact">
-      <h2>CONTACT INFORMATION </h2>
 
-      <article>
-        <img src="icon-phone.png" alt="" width="50" >
-        <h3>Phone</h3>
-        <address><a href="tel:+26772106601">+267 72 106 601</a></address>
-      </article>
+<main class="container">
 
-      <article>
-        <img src="icon-email.png" alt="" width="50" >
-        <h3>Email</h3>
-        <address><a href="mailto:StandardGrace@gmail.com">StandardGrace@gmail.com</a></address>
-      </article>
 
-      <article>
-        <img src="icon-location.png" alt="" width="50" >
-        <h3>Location</h3>
-        <address>Pitikwe Ward, Lobatse</address>
-      </article>
+<section>
 
-    </section>
+    <h2 class="section-title">Our Services</h2>
 
-  </main>
+    <div class="services-grid">
 
-  <footer>
-    <p>&copy; 2024 Standard Grace Construction &amp; Maintenance. All rights reserved.</p>
-  </footer>
+        <article class="service-card">
+
+            <img src="images/electrical.jpg" alt="Electrical">
+
+            <div class="service-content">
+                <h3>Electrical</h3>
+                <p>
+                    Safe and reliable electrical installation
+                    and maintenance services.
+                </p>
+            </div>
+
+        </article>
+
+
+        <article class="service-card">
+
+            <img src="images/plumbing.jpg" alt="Plumbing">
+
+            <div class="service-content">
+                <h3>Plumbing</h3>
+                <p>
+                    Professional plumbing solutions for homes
+                    and commercial buildings.
+                </p>
+            </div>
+
+        </article>
+
+
+        <article class="service-card">
+
+            <img src="images/road.jpg" alt="Civil Works">
+
+            <div class="service-content">
+                <h3>Civil Works</h3>
+                <p>
+                    Road construction, drainage and infrastructure
+                    development services.
+                </p>
+            </div>
+
+        </article>
+
+
+        <article class="service-card">
+
+            <img src="images/building.jpg" alt="Building">
+
+            <div class="service-content">
+                <h3>Building Construction</h3>
+                <p>
+                    Residential and commercial building projects
+                    from planning to completion.
+                </p>
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<section>
+
+    <h2 class="section-title">Why Choose Us</h2>
+
+
+    <div class="features-grid">
+
+        <article class="feature-box">
+            <h3>Quality Work</h3>
+            <p>
+                We deliver quality workmanship with attention to detail.
+            </p>
+        </article>
+
+
+        <article class="feature-box">
+            <h3>Experienced Team</h3>
+            <p>
+                Our skilled team ensures every project is handled professionally.
+            </p>
+        </article>
+
+
+        <article class="feature-box">
+            <h3>Affordable Pricing</h3>
+            <p>
+                Competitive pricing without compromising quality.
+            </p>
+        </article>
+
+    </div>
+
+</section>
+
+
+<section>
+
+    <h2 class="section-title">Project Gallery</h2>
+
+
+    <div class="gallery-grid">
+
+        <img src="images/project1.jpg" alt="Project 1">
+        <img src="images/project2.jpg" alt="Project 2">
+        <img src="images/project3.jpg" alt="Project 3">
+        <img src="images/project4.jpg" alt="Project 4">
+
+    </div>
+
+</section>
+
+
+<section class="contact-section">
+
+    <h2 class="section-title">Contact Information</h2>
+
+
+    <div class="contact-cards">
+
+        <article class="contact-card">
+            <h3>Phone</h3>
+            <p>+267 72 106 601</p>
+        </article>
+
+
+        <article class="contact-card">
+            <h3>Email</h3>
+            <p>StandardGrace@gmail.com</p>
+        </article>
+
+
+        <article class="contact-card">
+            <h3>Location</h3>
+            <p>Pitikwe Ward, Lobatse</p>
+        </article>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<footer>
+
+    <div class="container footer-content">
+
+        <p>
+            2018 Standard Grace PTY LTD. All Rights Reserved
+        </p>
+
+    </div>
+
+</footer>
 
 </body>
 </html>
+
+
