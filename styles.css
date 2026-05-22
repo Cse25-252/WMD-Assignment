@@ -1,1 +1,157 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header img, footer img {
+    vertical-align: middle;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ddd;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    margin-bottom: 10px;
+    color: #444;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #003d7a;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+figure {
+    margin-bottom: 20px;
+}
+
+#services-list .service, #projects-list .project, .contact-detail {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.service-icon, .project-images, .contact-detail img {
+    flex: 0 0 auto;
+    margin-right: 20px;
+}
+
+#faq {
+    margin-top: 40px;
+}
+
+.faq-item {
+    margin-bottom: 10px;
+}
+
+#footer-cta {
+    margin: 20px 0;
+}
+
+#call-btn {
+    display: inline-block;
+    background-color: #0056b3;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+}
+
+#call-btn:hover {
+    background-color: #003d7a;
+}
+
+#footer-copy {
+    padding: 20px 0;
+}
+
+@media (max-width: 768px) {
+    #form-row-1, #form-row-2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .service-icon, .project-images {
+        width: %;
+        margin: 0 0 10px 0;
+    }
+}
 
