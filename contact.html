@@ -1,164 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" >
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-  <title>Contact Us - Standard Grace Construction & Maintenance</title>
-  <link rel="stylesheet" href="styles.css" >
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Us - Standard Grace</title>
+
+    <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
 
-  <header>
-    <img src="logo.png" alt="Standard Grace Construction & Maintenance Logo" width="80" >
-    <h1>Standard Grace</h1>
-    <p>Construction &amp; Maintenance</p>
-    <nav>
-      <a href="index.html">Home</a> /
-      <a href="about.html">About Us</a> /
-      <a href="services.html">Services</a> /
-      <a href="projects.html">Projects</a> /
-      <a href="contact.html">Contact Us</a>
-    </nav>
-  </header>
+<header>
 
-  <main>
+    <div class="container navbar">
 
-    <section id="contact-hero">
-      <img src="contact-hero.jpg" alt="Construction site with cranes against a blue sky" width="100%" >
-      <div id="contact-hero-text">
-        <h2>Contact Us</h2>
-        <p>We are here to help, get in touch with us for any inquiries, quotes or project discussions</p>
-      </div>
-    </section>
+        <div class="logo">
+            <img src="images/logo.png" alt="Company Logo">
+        </div>
 
-    <section id="contact-main">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
 
-      <div id="get-in-touch">
-        <h2>Get In Touch</h2>
-        <p>Fill the form below and our team will get back to you as soon as possible</p>
+    </div>
 
-        <form action="#" method="post">
+</header>
 
-          <div id="form-row-1">
-            <label for="full-name">Full Name*</label>
-            <input type="text" id="full-name" name="full_name" placeholder="Full Name*" required >
 
-            <label for="email">Email Address*</label>
-            <input type="email" id="email" name="email" placeholder="Email Address*" required >
-          </div>
+<section class="page-banner">
 
-          <div id="form-row-2">
-            <label for="phone">Phone Number*</label>
-            <input type="tel" id="phone" name="phone" placeholder="Phone Number*" required >
+    <div class="banner-content">
 
-            <label for="subject">Subject*</label>
-            <input type="text" id="subject" name="subject" placeholder="Subject*" required >
-          </div>
+        <h1>Contact Us</h1>
 
-          <div id="form-row-3">
-            <label for="message">Your Message*</label>
-            <textarea id="message" name="message" placeholder="Your Message*" rows="5" required></textarea>
-          </div>
+        <p>
+            Get in touch with our professional team
+            for construction and maintenance services.
+        </p>
 
-          <button type="submit">
-            <img src="icon-send.png" alt="" width="20" >
-            Send Message
-          </button>
+    </div>
+
+</section>
+
+
+<main class="container">
+
+
+<section class="contact-grid">
+
+
+    <section>
+
+        <form>
+
+            <input type="text" placeholder="Full Name" required>
+
+            <input type="email" placeholder="Email Address" required>
+
+            <input type="text" placeholder="Phone Number">
+
+            <input type="text" placeholder="Subject">
+
+            <textarea placeholder="Your Message"></textarea>
+
+            <button type="submit" class="btn">
+                Send Message
+            </button>
 
         </form>
-      </div>
 
-      <aside id="contact-info">
+    </section>
+
+
+    <aside class="contact-info">
+
         <h2>Contact Information</h2>
 
-        <article class="contact-detail">
-          <img src="icon-phone.png" alt="Phone icon" width="50" >
-          <div>
-            <h3>Phone</h3>
-            <address><a href="tel:+26772106601">+267 72 106 601</a></address>
-          </div>
-        </article>
+        <h3>Phone</h3>
+        <p>+267 72 106 601</p>
 
-        <article class="contact-detail">
-          <img src="icon-email.png" alt="Email icon" width="50" >
-          <div>
-            <h3>Email</h3>
-            <address><a href="mailto:StandardGrace@gmail.com">StandardGrace@gmail.com</a></address>
-          </div>
-        </article>
+        <h3>Email</h3>
+        <p>StandardGrace@gmail.com</p>
 
-        <article class="contact-detail">
-          <img src="icon-location.png" alt="Location pin icon" width="50" >
-          <div>
-            <h3>Address</h3>
-            <address>Pitikwe Ward, Lobatse</address>
-          </div>
-        </article>
+        <h3>Address</h3>
+        <p>Pitikwe Ward, Lobatse</p>
 
-        <article class="contact-detail">
-          <img src="icon-clock.png" alt="Clock icon" width="50" >
-          <div>
-            <h3>Business Hours</h3>
-            <p>Mon-Fri: 8:00AM - 18:00PM</p>
-            <p>Sat-Sun: 8:00AM - 15:00PM</p>
-          </div>
-        </article>
+        <h3>Business Hours</h3>
+        <p>Monday - Friday: 8AM - 6PM</p>
+        <p>Saturday: 8AM - 3PM</p>
 
-      </aside>
+    </aside>
 
-    </section>
+</section>
 
-    <section id="faq">
-      <h2>Frequently Asked Questions (FAQs)</h2>
 
-      <div id="faq-grid">
+<section>
 
-        <div id="faq-col-left">
+    <h2 class="section-title">Frequently Asked Questions</h2>
 
-          <details class="faq-item">
-            <summary>1. What areas do you serve?</summary>
-            <p>We serve a wide range of areas across the region. Contact us for more details about your specific location.</p>
-          </details>
 
-          <details class="faq-item">
-            <summary>2. What type of projects do you handle?</summary>
-            <p>We handle residential, commercial, civil works, electrical, plumbing, and renovation projects of all sizes.</p>
-          </details>
+    <article class="faq-box">
 
-        </div>
+        <h3>What services do you provide?</h3>
 
-        <div id="faq-col-right">
+        <p>
+            We provide construction, electrical,
+            plumbing, civil works and maintenance services.
+        </p>
 
-          <details class="faq-item">
-            <summary>3. How long does a project take?</summary>
-            <p>Project timelines vary depending on scope and complexity. We provide a detailed schedule during the quoting phase.</p>
-          </details>
+    </article>
 
-          <details class="faq-item">
-            <summary>4. Do you offer maintenance services?</summary>
-            <p>Yes, we offer ongoing maintenance services for both residential and commercial properties.</p>
-          </details>
 
-        </div>
+    <article class="faq-box">
 
-      </div>
+        <h3>Do you work on residential projects?</h3>
 
-    </section>
+        <p>
+            Yes, we work on residential,
+            commercial and infrastructure projects.
+        </p>
 
-  </main>
+    </article>
 
-  <footer>
-    <div id="footer-cta">
-      <a href="tel:+26772106601" id="call-btn">
-        <img src="icon-phone.png" alt="Phone icon" width="24" >
-        Call Us Now
-      </a>
+
+    <article class="faq-box">
+
+        <h3>How can I request a quotation?</h3>
+
+        <p>
+            You can contact us using the form above
+            or call our office directly.
+        </p>
+
+    </article>
+
+</section>
+
+</main>
+
+
+<footer>
+
+    <div class="container footer-content">
+
+        <p>
+            2018 Standard Grace PTY LTD. All Rights Reserved
+        </p>
+
     </div>
-    <div id="footer-copy">
-      <p>2018 Standard Grace PTY LTD</p>
-      <p>All Rights Reserved</p>
-    </div>
-  </footer>
+
+</footer>
 
 </body>
 </html>
