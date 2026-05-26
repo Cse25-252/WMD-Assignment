@@ -45,7 +45,6 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 4px 0;
     flex-wrap: wrap;
 }
 
@@ -56,18 +55,15 @@ header{
 
 
 nav ul{
-    list-style: none;
-    display: flex;
-    gap: 12px;
+     display: flex !important;
+    flex-direction: row !important;
+    gap: 20px;
+    align-items: center;
 }
 
 
 nav ul li a{
-    text-decoration: none;
-    color: #222;
-    font-size: 13px;
-    font-weight: bold;
-    transition: 0.3s;
+    display: inline-block;
 }
 
 
