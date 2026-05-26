@@ -183,7 +183,7 @@ nav ul li a:hover{
 
 
 .service-card{
-    background-color: #f9f9f9;
+    background-color: black;
     border-radius: 10px;
     overflow: hidden;
     transition: transform 0.3s;
