@@ -171,48 +171,10 @@ nav ul li a:hover{
 
 /* ===== SERVICES ===== */
 
-.services-grid{
-    display: flex;
-    flex-grid: wrap;
-    justify-content: center;
-    gap: 20px;
-    max-width: 1200px;
-    margin: 40px auto;
-    padding: 0 20px;
-}
-
-
-.service-card{
-    background-color: black;
-    border-radius: 10px;
-    overflow: hidden;
-    transition: transform 0.3s;
-    margin-bottom: 10px;
-}
-
-
-.service-card:hover{
-    transform: translateY(-5px);
-}
-
 
 .service-card img{
-    width: 100%;
-    aspect-ratio: 4/3;
-    object-fit: cover;
+    height:220px
 }
-
-
-.service-content{
-    padding: 15px;
-    text-align: center;
-}
-
-
-.service-content h3{
-    margin-bottom: 10px;
-}
-
 
 /* ===== ABOUT ===== */
 
