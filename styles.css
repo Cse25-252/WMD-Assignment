@@ -260,6 +260,23 @@ section.py-5 img {
     border-radius: 8px;
 }
 
+/* ===== PROJECT HIGHLIGHT CENTER FIX ===== */
+
+.project-highlight {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.highlight-grid {
+    display: flex;
+    justify-content: center;
+}
+
+.project-highlight article {
+    max-width: 800px;
+    margin: auto;
+}
+
 .project-content{
     padding: 18px;
 }
