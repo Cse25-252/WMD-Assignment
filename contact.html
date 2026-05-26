@@ -162,15 +162,23 @@
 </footer>
 
 <script>
+function showMessage() {
 
-document.addEventListener("DOMContentLoaded", function(){
+    const toast = document.getElementById("toast");
 
-    alert("Thank you for visiting Standard Grace PTY LTD!");
+    toast.classList.add("show");
 
-});
+    document.querySelector("form").reset();
 
-    
+    setTimeout(() => {
+        toast.classList.remove("show");
+    }, 4000);
+}
 </script>
+
+   <p id="toast" class="toast">
+    Thank you for contacting Standard Grace PTY LTD. We will get back to you shortly.
+</p>
     
 </body>
 </html>
