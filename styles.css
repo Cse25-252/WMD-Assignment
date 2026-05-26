@@ -376,6 +376,15 @@ form button{
     margin-bottom: 10px;
 }
 
+/* ===== SUCCESS MESSAGE ===== */
+
+#success-message{
+    margin-top: 15px;
+    color: green;
+    font-weight: bold;
+    font-size: 15px;
+
+}
 
 /* ===== FAQ ===== */
 
