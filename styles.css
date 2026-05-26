@@ -172,17 +172,21 @@ nav ul li a:hover{
 /* ===== SERVICES ===== */
 
 .services-grid{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    display: flex;
+    flex-grid: wrap;
+    justify-content: center;
     gap: 20px;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
 }
 
 
 .service-card{
-    background-color: white;
+    background-color: #f9f9f9;
     border-radius: 10px;
     overflow: hidden;
-    transition: 0.3s;
+    transition: transform 0.3s;
     margin-bottom: 10px;
 }
 
@@ -194,8 +198,7 @@ nav ul li a:hover{
 
 .service-card img{
     width: 100%;
-    height: 250px;
-    aspect-ratio: 16/9;
+    aspect-ratio: 4/3;
     object-fit: cover;
 }
 
