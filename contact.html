@@ -71,9 +71,11 @@
 
             <textarea placeholder="Your Message"></textarea>
 
-            <button type="submit" class="btn">
-                Send Message
+            <button type="button" class="btn" onclick="showMessage()">
+             Send Message
             </button>
+
+            <p id="success-message"></p>
 
         </form>
 
@@ -159,5 +161,14 @@
 
 </footer>
 
+<script>
+    function showMessage(){
+
+    document.getElementById("success-message").innerHTML =
+    "Your message has been sent successfully!";
+
+}
+</script>
+    
 </body>
 </html>
